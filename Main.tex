@@ -1,0 +1,32 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[brazilian]{babel} %Traduz o documento para o portugues do brasil
+\usepackage[utf8]{inputenc} %Reconhece acentuação
+\usepackage{lipsum} %Gera texto aleatório
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage[pdftex]{hyperref}
+
+\makeindex 
+
+\begin{document}
+	
+\title{Data Scientist - Curso}
+\author{Manoel Teles}
+	
+
+\maketitle	
+
+\newpage
+
+\section{Índice}
+%\printindex
+
+\newpage
+
+\section{Estatística}
+\include{cap1/Amostragem}
+\include{cap2/MedidasCentralidadeVariabilidade}
+
+
+	
+\end{document}	
